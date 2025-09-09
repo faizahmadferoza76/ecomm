@@ -31,7 +31,7 @@ export default function Products() {
               {item.title}
             </h2>
             <p className="text-sm text-gray-600 line-clamp-2">{item.description}</p>
-            <p className="mt-2 font-bold">Price: ${item.price}</p>
+            <p className="mt-2 font-bold">Price: Rs.{item.price}</p>
           </Link>
         ))}
       </div>
