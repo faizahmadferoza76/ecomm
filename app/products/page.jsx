@@ -9,13 +9,13 @@ export default function Products() {
         <h1 className="text-3xl font-bold">🛍️ Product List</h1>
         <Link
           href="/Cart"
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-pink-700"
         >
           View Cart
         </Link>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {products.map((item) => (
           <Link
             key={item.id}
